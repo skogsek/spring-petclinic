@@ -12,7 +12,7 @@ services:
     environment:
       - POSTGRES_URL=jdbc:postgresql://db:5432/petclinic
     develop:
-    watch:
+      watch:
       - action: rebuild
         path: .
 
